@@ -1,0 +1,53 @@
+.slogan{
+    background-image:url(img//5cd0fa5f31eb422a9aa3a52c279a8b65_Chef+Yonemura+copy.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    border-bottom: 20px;
+    background-position: 0px 200px;
+}
+.container1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: rgb(230, 188, 73);
+}
+.box >img {
+    height: 500px;
+    width: auto;
+    margin: 5px;
+    border: 10px solid rgb(201, 112, 53);
+}
+.text-box{
+   display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 20vw;
+    height: auto;
+    text-align: center;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: rgb(222, 208, 171);
+}
+.box2 >img {
+    height: 500px;
+    width: auto;
+    margin: 5px;
+    border: 10px solid rgb(201, 112, 53);
+}
+.text-box2{
+   display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 20vw;
+    height: auto;
+    text-align: center;
+}

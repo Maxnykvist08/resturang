@@ -21,7 +21,10 @@ header{
 header a{
     text-decoration: none;
     color: antiquewhite;
-    
+
+}
+#boka{
+    text-decoration: underline  ;
 }
 .logga >img{
     height: 70px;
@@ -37,9 +40,7 @@ color: antiquewhite;
 text-align: center;
 margin: auto; 
 }
-header :first-child{
-/*dada*/
-}
+
 
 .slogan{
     display: flex;
@@ -86,12 +87,19 @@ header :first-child{
 }
 .bodybox{
     border: 5px solid rgb(209, 66, 26);
-     background-color: rgb(209, 66, 26);
+    background-color: rgb(209, 66, 26);
     margin-top: 20px;
     padding-bottom: 20px;
     color: #efe2cd;
+    width:auto;
+   
     
 }
+.bodybox> iframe{
+    width: 400px;
+    height: 400px;
+}
+
 .bodybox h3{
     text-align: center;
 }
@@ -108,4 +116,25 @@ li:nth-child(2n+1){
     width: 300px;
     height: auto;
     margin: auto;
+}
+.titel{
+    display: flex;
+    font-size: 50px;
+    margin: auto;
+    height: 100px;
+    justify-content: space-around;
+    margin-top: 40px;
+      
+
+    
+}
+.titel>div{
+    background-color: rgb(209, 66, 26);
+     margin: auto;
+     border-radius: 20px 20px 20px 20px;
+     padding: 5px;
+     padding-left: 20px;
+     padding-right: 20px;
+     text-align: center;
+     color: antiquewhite;
 }

@@ -8,6 +8,14 @@ li:nth-child(2n){
 .bodybox{
     border: 10px solid rgb(180, 12, 12);
     box-shadow:black 20px 10px 30px;
-    
+
+
 }
+h2{text-align: center;
+    background-color: rgb(209, 66, 26);
+}
+.bodybox:hover{
+ scale:1.5;
+}
+
 
