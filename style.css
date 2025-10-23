@@ -20,7 +20,7 @@ header{
 }
 header a{
     text-decoration: none;
-    color: antiquewhite;
+    color: #efe2cd;
 
 }
 #boka{
@@ -35,7 +35,7 @@ header a{
 }
 
 .headbox{
-color: antiquewhite;
+color: #efe2cd;
 
 text-align: center;
 margin: auto; 
@@ -66,7 +66,7 @@ margin: auto;
     border-radius:20px 20px 20px 20px ;
     flex-wrap: nowrap;
     
-    color: antiquewhite;
+    color: #efe2cd;
     font-size: 3vw;
     
 }

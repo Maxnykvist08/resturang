@@ -1,0 +1,48 @@
+th{
+    font-size: 100px;
+    color: #000000;
+}
+td{
+    font-size: 20px;
+color: #000000;
+}
+tr{
+    margin: 5px;
+}
+
+.text-box{
+
+    margin-top: 150px;
+    margin-left: 30px;
+    
+}
+table{
+    width: 30vw;
+    height: auto;
+}
+.top{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.top>img{
+    height: 50vw;
+    width: auto;
+    overflow: hidden;
+}
+#sista{
+    font-size: 16.5px;
+}
+.container{
+    
+    justify-content: center;
+    
+    gap: 10px;
+}
+.bodybox{
+    margin-top: 0px;
+}
+body{
+    background-color: burlywood;
+}
+    
